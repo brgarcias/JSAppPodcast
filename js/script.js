@@ -43,7 +43,7 @@ function renderPodcast(podcast) {
   divPodcasts.innerHTML = ''
 
   let img = document.createElement('img')
-  img.src = './img' + podcast.img
+  img.src = './img/' + podcast.img
   img.alt = 'Logo do podcast' + podcast.title
   img.title = podcast.title
 
